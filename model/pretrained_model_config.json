@@ -1,0 +1,29 @@
+{
+  "project": "asl-sign-recognizer",
+  "description": "MediaPipe Hands (pretrained) -> landmark features -> small classifier head",
+
+  "hand_detector": {
+    "backbone": "mediapipe.solutions.hands",
+    "max_num_hands": 2,
+    "min_detection_confidence": 0.6,
+    "min_tracking_confidence": 0.5,
+    "model_complexity": 0
+  },
+
+  "classifier": {
+    "model_file": "asl_model.keras",
+    "labels_file": "labels.json",
+    "confidence_threshold": 0.7
+  },
+
+  "smoothing": {
+    "window_size": 10,
+    "min_votes": 6
+  },
+
+  "camera": {
+    "index": 0,
+    "width": 960,
+    "height": 540
+  }
+}

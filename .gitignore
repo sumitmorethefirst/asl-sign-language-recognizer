@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Your own recorded data and trained model (regenerate with the scripts)
+data/samples/*.csv
+model/*.keras
+model/*.h5
+model/labels.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

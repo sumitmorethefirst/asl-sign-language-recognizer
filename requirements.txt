@@ -1,0 +1,7 @@
+# Python 3.10 - 3.12 recommended
+opencv-python>=4.8,<5
+mediapipe==0.10.21
+# MediaPipe and TensorFlow both need NumPy 1.x on most platforms
+numpy>=1.24,<2
+tensorflow>=2.13,<2.20
+scikit-learn>=1.3
