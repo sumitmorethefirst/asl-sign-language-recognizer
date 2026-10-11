@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ASL Sign Recognizer (webcam demo)
 
 A beginner-friendly Python project that watches your laptop webcam, detects your
@@ -212,3 +213,7 @@ text-to-speech call on each recognised sign.
 All the main settings (camera size, MediaPipe confidence, smoothing window,
 confidence threshold) live in `model/pretrained_model_config.json`.
 To add a sign: add a line to `data/labels.txt`, record it, and re-train.
+=======
+# asl-sign-language-recognizer
+Real-time American Sign Language recognition project using Python, MediaPipe, and a pretrained classifier model to detect individual signs and display text
+>>>>>>> cede63caae06622195249e7bb45f4c0e0763e3bc
